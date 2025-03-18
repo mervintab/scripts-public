@@ -1,4 +1,13 @@
-﻿# Get the script's directory
+# This PowerShell script automates the process of updating 7-Zip to the latest available version by:
+
+# Checking the installed version of 7-Zip on the system.
+# Scraping the official 7-Zip website to find the latest version.
+# Comparing the installed version with the latest available version.
+# Downloading and silently installing the update (if required).
+# Ensuring compatibility with 32-bit and 64-bit systems.
+ 
+  
+# Get the script's directory
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 
 # Define the expected installer name
