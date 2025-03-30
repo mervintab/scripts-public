@@ -1,1 +1,17 @@
+# Log to JSON Converter
+
+This is a simple Python script to convert structured log files into JSON format.
+
+## Features
+- Parses logs with multiple fields per entry
+- Outputs a clean JSON array of log entries
+- Easy to adapt to different log formats
+
+## How to Use
+
+1. Place your log file in the same directory as the script.
+2. Run the script:
+
+```bash
+python log_to_json.py
 
