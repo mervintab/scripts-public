@@ -13,4 +13,29 @@ This is a simple Python script to convert structured log files into JSON format.
 2. Run the script:
 
 ```bash
-python log_to_json.py
+python3 log_to_json.py sampleLog.log
+```
+
+3. The output will be saved as `output.json`.
+
+## Example
+
+**Log Input:**
+```
+Date/Time: 2023-12-20 18:45:22
+Web Server: 192.168.1.102
+...
+```
+
+**JSON Output:**
+```json
+{
+  "Date/Time": "2023-12-20 18:45:22",
+  "Web Server": "192.168.1.102",
+  ...
+}
+```
+
+## License
+
+MIT
